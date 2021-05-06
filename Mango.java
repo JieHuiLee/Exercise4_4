@@ -39,13 +39,13 @@ public class Mango extends Fruit{ //sub class of Fruit
 			   + "\nVitaminC: " + vitaminC +"\n";
 	}
 	
-	public String info(String r, String c) { //overloading with 1 argument
+	public String info(String r, String c) { //overloading with 2 argument
 		return "Region\t: " + r 
 			   + "\nColor\t: " + c
 			   + "\nVitaminC: " + vitaminC +"\n";
 	}
 	
-	public String info(String r, String c,double v) { //overloading with 2 arguments
+	public String info(String r, String c,double v) { //overloading with 3 arguments
 		return "Region\t: " + r 
 			  + "\nColor\t: " + c 
 			  + "\nVitaminC: " + v +"\n";
